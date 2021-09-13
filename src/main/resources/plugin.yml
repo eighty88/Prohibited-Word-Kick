@@ -1,0 +1,18 @@
+main: "com.github.eighty88.pwk.Prohibited"
+name: "PWK"
+version: "${project.version}"
+api-version: "1.15"
+author: "eight_y_88"
+website: "None"
+description: Minecraft Prohibited Words Kick Plugin
+commands:
+  addwords:
+    description: This is a command what add prohibited word
+    usage: /<command>
+    permission: op
+    permission-message: You don't have <permission>
+  wordslist:
+    description: This is a command what show prohibited words
+    usage: /<command>
+    permission: op
+    permission-message: You don't have <permission>
